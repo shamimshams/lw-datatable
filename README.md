@@ -14,17 +14,3 @@ composer require shamimshams/lw-datatable
 ```bash
 php artisan vendor:publish --provider="ShamimShams\LWDatatable\ServiceProvider"
 ```
-
-## Usage
-
-CHANGE ME
-
-## Security
-
-If you discover any security related issues, please email 
-instead of using the issue tracker.
-
-## Credits
-
-- [](https://github.com/shamim-shams/lw-datatable)
-- [All contributors](https://github.com/shamimshams/lw-datatable/graphs/contributors)
