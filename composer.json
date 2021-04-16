@@ -1,0 +1,50 @@
+{
+  "name": "shamimshams/lw-datatable",
+  "description": "A Laravel Livewire Datatable Helper Package",
+  "license": "MIT",
+  "keywords": [
+    "datatable",
+    "helper"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "shamim shams",
+      "email": "shamim.idb@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "illuminate/support": "^6.0|^7.0|^8.0",
+    "livewire/livewire": "^2.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^4.0|^5.0|^6.0",
+    "phpunit/phpunit": "^8.4|^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ShamimShams\\LWDatatable\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ShamimShams\\LWDatatable\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "phpunit": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ShamimShams\\LWDatatable\\LWDataTableServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
