@@ -1,25 +1,25 @@
-# L W Datatable Helper
+# LW Datatable Helper
 
-[![GitHub Workflow Status](https://github.com/shamim-shams/l-w-datatable-helper/workflows/Run%20tests/badge.svg)](https://github.com/shamim-shams/l-w-datatable-helper/actions)
+[![GitHub Workflow Status](https://github.com/shamimshams/lw-datatable/workflows/Run%20tests/badge.svg)](https://github.com/shamimshams/lw-datatable/actions)
 [![styleci](https://styleci.io/repos/CHANGEME/shield)](https://styleci.io/repos/CHANGEME)
 
-[![Packagist](https://img.shields.io/packagist/v/shamim-shams/l-w-datatable-helper.svg)](https://packagist.org/packages/shamim-shams/l-w-datatable-helper)
-[![Packagist](https://poser.pugx.org/shamim-shams/l-w-datatable-helper/d/total.svg)](https://packagist.org/packages/shamim-shams/l-w-datatable-helper)
-[![Packagist](https://img.shields.io/packagist/l/shamim-shams/l-w-datatable-helper.svg)](https://packagist.org/packages/shamim-shams/l-w-datatable-helper)
+[![Packagist](https://img.shields.io/packagist/v/shamimshams/lw-datatable.svg)](https://packagist.org/packages/shamimshams/lw-datatable)
+[![Packagist](https://poser.pugx.org/shamimshams/lw-datatable/d/total.svg)](https://packagist.org/packages/shamimshams/lw-datatable)
+[![Packagist](https://img.shields.io/packagist/l/shamimshams/lw-datatable.svg)](https://packagist.org/packages/shamimshams/lw-datatable)
 
-Package description: CHANGE ME
+Package description: Laravel Livewire Datatable Traits. (This code is from livewire-surge tutorials)
 
 ## Installation
 
 Install via composer
 ```bash
-composer require shamim-shams/l-w-datatable-helper
+composer require shamimshams/lw-datatable
 ```
 
 ### Publish package assets
 
 ```bash
-php artisan vendor:publish --provider="ShamimShams\LWDatatableHelper\ServiceProvider"
+php artisan vendor:publish --provider="ShamimShams\LWDatatable\ServiceProvider"
 ```
 
 ## Usage
@@ -33,8 +33,5 @@ instead of using the issue tracker.
 
 ## Credits
 
-- [](https://github.com/shamim-shams/l-w-datatable-helper)
-- [All contributors](https://github.com/shamim-shams/l-w-datatable-helper/graphs/contributors)
-
-This package is bootstrapped with the help of
-[melihovv/laravel-package-generator](https://github.com/melihovv/laravel-package-generator).
+- [](https://github.com/shamim-shams/lw-datatable)
+- [All contributors](https://github.com/shamimshams/lw-datatable/graphs/contributors)
