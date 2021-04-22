@@ -1,5 +1,5 @@
 <?php
-namespace shamimshams\LWDatatable\Traits;
+namespace ShamimShams\LWDatatable\Traits;
 
 use Livewire\WithPagination;
 
